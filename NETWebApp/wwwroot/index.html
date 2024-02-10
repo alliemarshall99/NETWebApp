@@ -1,0 +1,86 @@
+﻿<!--Allie Marshall Section 3 IS413-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Allie's Art</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="Untitled-1 (5)-01.png">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+    <!--Navigation to Second Page-->
+    <button onclick="goToCalculator()">Commissions</button>
+
+    <script>
+        // JavaScript function to navigate to calculator.html
+        function goToCalculator() {
+            window.location.href = "calculator.html";
+        }
+    </script>
+
+    <!--Title and introduction to site-->
+    <h1>Allie's Art</h1>
+    <h3>Animation, Illustrations, Painting, Crocheting, Sculpting, and everything in-between</h3>
+
+    <p>Hello! I am Allie Shumway and I do art. What kind of art? A little bit of everything!</p>
+    <!--Videos of hobby-->
+    <video controls="controls" height="600">
+        <source src="export_1669691903658.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video controls="controls" height="600">
+        <source src="export_1672435589510.mp4" type="video/mp4" />
+    </video>
+
+
+    <!--Paragraph of hobby-->
+    <p>Animation has become my recent hobby, and I enjoy bringing moments from my life to life using Adobe After Effects.</p>
+    <p>Always keen to learn new tools, my journey into animation is a constant exploration, ensuring a dynamic and enriching creative experience.</p>
+
+    <!--Images of hobby-->
+    <img src="Screenshot 2024-02-09 203937.jpg" height="600" />
+    <img src="Screenshot 2024-02-09 203841.jpg" height="600" />
+    <img src="IMG_6977.jpg" height="600" />
+
+    <!--Paragraph of hobby-->
+    <p>Illustration is something I love to do in my free time. I typically work in Adobe Illustrator.</p>
+
+    <!--Images of hobby-->
+    <img src="Crane Colors Mono and .jpg" height="600" />
+    <img src="Allie Marshall Final-6.jpg" height="600" />
+    <img src="Allie Marshall Final-5.jpg" height="600" />
+    <img src="longboard.jpg" height="600" />
+    <img src="sisterwatercolor.jpg" height="600" />
+
+    <!--Paragraph of hobby-->
+    <p>I love and hate painting. My main medium is acylic paint. Sometimes I like to use watercolor. Painting can be frustrating, but incredibly rewarding!</p>
+
+    <!--Images of hobby-->
+    <img src="crochetbear.jpg" height="600" />
+    <img src="crochetingdoll.jpg" height="600" />
+    <img src="crochetjelly.jpg" height="600" />
+    <img src="hats.jpg" height="600" />
+
+    <!--Paragraph of hobby-->
+    <p>Crocheting is my favorite relaxing art form. I can make stuffed animals, dolls, blankets, and clothing. Yarn is typically cotton or polyester.</p>
+    <img src="Sculpture.jpg" height="600" />
+
+    <!--Paragraph of hobby-->
+    <p>Scupting is something I don't do often. However, I love making 3D objects when given the opportunity!</p>
+
+
+    <!-- Include the footer -->
+    <div id="footer-container"></div>
+    <script>
+        $(function () {
+            $("#footer-container").load("footer.html");
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* Set a background color for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa; /* Light grayish background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Improve readability with proper line height and margins */
+body, p, h1, h2, h3 {
+    line-height: 1.6;
+    margin: 0.5em 0;
+}
+
+/* Style the header */
+h1 {
+    color: #258cfb; /* Blue color for headers */
+}
+
+/* Style the navigation button */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #258cfb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #007bff; /* Darker blue on hover */
+    }
+
+/* Style the main content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #343a40; /* Dark gray for the footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Change from absolute to fixed */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add a subtle box-shadow to focused elements for better visibility */
+:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
